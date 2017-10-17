@@ -1,0 +1,78 @@
+html, body {
+ margin: 0;
+ padding: 10px;
+ width: 100%;
+ height: 100%;
+ background-color: gainsboro;
+}
+
+div{
+  border: 2px solid black;
+}
+
+.contain{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  padding: 5px;
+
+  /*justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;*/
+}
+
+.top{
+  flex: 1;
+  display: flex;
+  /*border: 2px solid red;*/
+  padding: 5px;
+  justify-content: center;
+
+}
+
+h1{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: "Powerful"
+}
+
+.main{
+  display: flex;
+  flex: 2;
+  /*border: 2px solid blue;*/
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.pixelGrid{
+  display: flex;
+  flex-direction: column;
+  /*flex: 1;*/
+  /*border: 3px solid green;*/
+  width: 600px;
+  height: 400px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.colorSelect{
+  display: flex;
+  flex-direction: column;
+  /*flex: 1;*/
+  /*border: 3px solid pink;*/
+  width: 600px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.griditems{
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid green;*/
+  width: 20px;
+  height: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+}
